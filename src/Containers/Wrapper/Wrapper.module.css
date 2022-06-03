@@ -1,0 +1,11 @@
+.wrapper {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 40px;
+  overflow-x: hidden;
+}
+@media (max-width: 450px) {
+  .wrapper {
+    padding: 0 25px;
+  }
+}

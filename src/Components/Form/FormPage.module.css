@@ -1,0 +1,87 @@
+.formContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: calc(100vh - 60px);
+}
+.col1 {
+  background-image: url("../../images/modern-blue-background-images-free-download.jpg");
+  min-width: 350px;
+  height: calc(100vh - 60px);
+  text-align: center;
+  color: #fff;
+}
+.heading {
+  text-align: left;
+  padding: 10px 0 0 40px;
+}
+.formImg {
+  width: 350px;
+}
+.quote {
+  margin-top: 80px;
+  font-size: 17px;
+  padding: 25px 20px 45px 40px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+.col2 {
+  padding-left: 90px;
+  width: calc(100vw - 350px);
+  padding-bottom: 20px;
+}
+@media (max-width: 1100px) {
+  .formImg {
+    width: 280px;
+  }
+  .col2 {
+    width: calc(100vw - 400px);
+    padding-left: 30px;
+  }
+}
+@media (max-width: 900px) {
+  .formContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .col1 {
+    height: max-content;
+    margin-top: 10px;
+  }
+  .quote {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .formImg {
+    padding: 25px;
+  }
+  .heading {
+    margin-bottom: 10px;
+  }
+  .col2 {
+    width: 85vw;
+    padding-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .formImg {
+    width: 280px;
+  }
+}
+@media (max-width: 691px) {
+  .row {
+    display: block;
+  }
+  .formImg {
+    padding: 15px;
+  }
+}

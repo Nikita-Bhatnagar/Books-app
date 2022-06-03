@@ -3,6 +3,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
+  padding-right: 25px;
 }
 .heading {
   font-size: 20px;
@@ -13,9 +14,13 @@
   margin-top: 30px;
   min-height: 90vh;
   width: 100vw;
+  padding-right: 25px;
 }
 .noFav {
   text-align: center;
   font-weight: 500;
   margin-top: 25px;
+}
+.list {
+  padding-right: 25px;
 }

@@ -108,6 +108,7 @@ const Form = (props) => {
               id="title"
               value={title}
               onChange={titleHandler}
+              required="true"
             />
             <label htmlFor="author">Author's Name:</label>
             <input
@@ -116,6 +117,7 @@ const Form = (props) => {
               id="author"
               value={author}
               onChange={authorHandler}
+              required="true"
             />
             <label htmlFor="price">Price:</label>
             <input
@@ -125,6 +127,7 @@ const Form = (props) => {
               min="0"
               value={price}
               onChange={priceHandler}
+              required="true"
             />
           </div>
           <div className={classes.col}>
@@ -136,6 +139,7 @@ const Form = (props) => {
               className={classes.input}
               value={genre}
               onChange={genreHandler}
+              required="true"
             />
             <label htmlFor="img">Image url:</label>
             <input
@@ -152,6 +156,7 @@ const Form = (props) => {
               id="year"
               value={year}
               onChange={yearHandler}
+              required="true"
             />
           </div>
         </div>

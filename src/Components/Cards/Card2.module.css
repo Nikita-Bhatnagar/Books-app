@@ -89,6 +89,9 @@
   .title {
     width: 139px;
   }
+  .options {
+    left: 143px;
+  }
 }
 @media (max-width: 769px) {
   .card2 {
@@ -114,6 +117,9 @@
   .title {
     width: 124px;
   }
+  .options {
+    left: 128px;
+  }
 }
 @media (max-width: 590px) {
   .card2 {
@@ -125,6 +131,9 @@
   }
   .title {
     width: 184px;
+  }
+  .options {
+    left: 188px;
   }
 }
 @media (max-width: 540px) {
@@ -140,6 +149,9 @@
   .title {
     width: 124px;
   }
+  .options {
+    left: 128px;
+  }
 }
 @media (max-width: 400px) {
   .card2 {
@@ -152,5 +164,8 @@
   }
   .title {
     width: calc(70vw - 16px);
+  }
+  .options {
+    left: calc(70vw - 15px);
   }
 }
